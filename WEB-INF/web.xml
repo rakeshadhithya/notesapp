@@ -1,0 +1,97 @@
+<web-app>
+
+    <listener>
+        <listener-class>ContextListener</listener-class>
+    </listener>
+
+    
+    <servlet>
+        <servlet-name>loginservlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginservlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loginhandlerservlet</servlet-name>
+        <servlet-class>LoginHandlerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginhandlerservlet</servlet-name>
+        <url-pattern>/loginhandler</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getallnotes</servlet-name>
+        <servlet-class>GetAllNotesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getallnotes</servlet-name>
+        <url-pattern>/getallnotes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchbytextservlet</servlet-name>
+        <servlet-class>SearchByTextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchbytextservlet</servlet-name>
+        <url-pattern>/searchbytext</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>forgetservlet</servlet-name>
+        <servlet-class>ForgetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forgetservlet</servlet-name>
+        <url-pattern>/forget</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registrationservlet</servlet-name>
+        <servlet-class>RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registrationservlet</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createnoteservlet</servlet-name>
+        <servlet-class>CreateNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createnoteservlet</servlet-name>
+        <url-pattern>/createnote</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updatenoteservlet</servlet-name>
+        <servlet-class>UpdateNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatenoteservlet</servlet-name>
+        <url-pattern>/updatenote</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletenoteservlet</servlet-name>
+        <servlet-class>DeleteNoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletenoteservlet</servlet-name>
+        <url-pattern>/deletenote</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logoutservlet</servlet-name>
+        <servlet-class>LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logoutservlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>

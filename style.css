@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+nav {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav input[type="button"] {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.notecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.note-box {
+  background-color: white;
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  max-width: 500px;
+  border-left: 5px solid #007bff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word; /* Ensures long words wrap correctly */
+  overflow-wrap: break-word; /* Ensures long text breaks and wraps */
+  white-space: pre-wrap; /* Preserves whitespace and ensures wrapping */
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3,
+h4,
+h2 {
+  color: #333;
+}
